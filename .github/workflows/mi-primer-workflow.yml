@@ -12,5 +12,5 @@ jobs:
     - name: Imprimir
       id: imprimir
       env:
-        MI_VARIABLE: Hola mundo
+        MI_VARIABLE: Hola mundo, como estás?
       run: echo "::set-output name=respuesta::${MI_VARIABLE}"
